@@ -237,7 +237,7 @@
 }
 
 .image-dashbaord {
-    background-image: url("/assets/images/sky.jpg");
+    background-image: url("assets/images/sky.jpg");
     height: 100%;
     width: 100%;
     margin: 0%;
