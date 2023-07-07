@@ -1,41 +1,23 @@
 <div >
-  <nav class="navbar navbar-expand-md navbar-dark bg-ledapp fixed-top">
-    <label class="navbar-brand navbar-brand-label" style="font-size: 22px; font-weight: bolder;"><strong
-        style="font-size: 12px; font-weight: bolder;" [routerLink]="['/app-dashboard']">SANTOSHITAL PORTAL</strong>
+  <nav class="navbar navbar-expand-md navbar-dark bg-ledapp">
+    <!-- <label class="navbar-brand navbar-brand-label" style="font-size: 22px; font-weight: bolder;"><strong
+        style="font-size: 12px; font-weight: bolder;" [routerLink]="['/app-dashboard']">SANTOSHITAL Fitness Club</strong>
       <a class="navbar-brand navbar-brand-home" ><i class="fa fa-home fa-fw fa-lg"
           aria-hidden="true"></i></a>
-    </label>
+    </label> -->
 
-    <div class="collapse navbar-collapse" id="mainNavbar">
-      <uL class="nav navbar-nav" style="padding-left: 70%;">
-        <li><a class="btn" style="color:white" [routerLink]="['/app-about']">About</a>
+
+
+      <uL class="nav navbar-nav" >
+        <li><a class="btn" style="color:white" [routerLink]="['/app-dashboard']">SANTOSHITAL Fitness Club</a>
+        <li><a class="btn" style="color:white" [routerLink]="['/app-about']" >About</a>
         </li>
         <li><a class="btn" style="color:white" [routerLink]="['/app-contact']">Contact Us</a>
         </li>
         <li><a class="btn" style="color:white" [routerLink]="['/app-blogs']">Blogs</a>
         </li>
       </uL>
-      <div class="navbar-collapse collapse ">
-        <ul class="navbar-nav ml-auto">
-          <!-- <button  type="button" class="btn btn-info"  [disabled]="headerFlag">Request Task</button> -->
-          <li class="nav-item" >
-            <a class="btn" style="color: white;" [routerLink]="['/my-favourite']">
-          <i class="fa fa-star" style="color:white"></i>
-          </a>
-          </li>
-          <li class="nav-item" style="color: white;">
-            <a class="nav-link" target="_blank" style="color: white;">
-              <i class="fa fa-question-circle fa-fw" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link clickable" style="color:white;padding-left: 5px;padding-right: 5px;"
-              [routerLink]="['/app-dashboard']"><span class="fa fa-user-circle fa-fw mr-1">
-              </span> Hello, Viewer</a>
-          </li>
-        </ul>
-      </div>
-    </div>
+
   </nav>
 </div>
 <style type="text/css">
