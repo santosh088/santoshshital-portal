@@ -16,11 +16,11 @@
       </div>
       <div class="menu" [class.menuClass]="menuVariable">
         <uL>
-          <li [routerLink]="['/about']">About
+          <li [routerLink]="['/about']" (click)="openMenu()">About
           </li>
-          <li [routerLink]="['/contact']">Contact Us
+          <li [routerLink]="['/contact']" (click)="openMenu()">Contact Us
           </li>
-          <li [routerLink]="['/blogs']">Blogs
+          <li [routerLink]="['/blogs']" (click)="openMenu()">Blogs
           </li>
         </uL>
       </div>

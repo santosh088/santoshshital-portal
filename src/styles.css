@@ -86,7 +86,9 @@ header {
     .menuClass {
       right: 0;
       transition: 0.4s ease-in-out;
-      position: sticky;
+      position: static;
+    margin-top: -15px;
+    margin-left: auto;
     }
   }
   
