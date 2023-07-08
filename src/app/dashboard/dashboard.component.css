@@ -237,9 +237,18 @@
 }
 
 .image-dashbaord {
-    background-image: url("assets/images/sky.jpg");
+    background-image: url("assets/images/desk_yoga.jpg");
     height: 100%;
     width: 100%;
     margin: 0%;
     padding: 0%;
+}
+@media (max-width: 999px) {
+    .image-dashbaord {
+        background-image: url("assets/images/yoga.jpg");
+        height: 100%;
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
 }
