@@ -17,10 +17,10 @@ const childRoutes: Routes = [
     //   path: '', component: LayoutComponent,
     children: [
       { path: '', component: DashboardComponent },
-       { path: 'app-dashboard', component: DashboardComponent },
-       { path: 'app-about', component: AboutComponent },
-       { path: 'app-contact', component: ContactComponent },
-       { path: 'app-blogs', component: BlogsComponent },
+       { path: 'dashboard', component: DashboardComponent },
+       { path: 'about', component: AboutComponent },
+       { path: 'contact', component: ContactComponent },
+       { path: 'blogs', component: BlogsComponent },
     ],
   }
 ];

@@ -1,115 +1,32 @@
 <header>
-<div class="row col-12">
-  <div class="col-3 ">
-    <div class="row">
-      &nbsp;<img src="assets/images/logo.png"  [routerLink]="['/app-dashboard']" style="height: 30px;"> &nbsp;
+  <div class="row col-12">
+    <div class="col-3 ">
+      <div class="row">
+        &nbsp;<img src="assets/images/logo.png" [routerLink]="['/dashboard']" style="height: 30px;"> &nbsp;
 
-    <!-- <div  [routerLink]="['/app-dashboard']" style="color: white;">SANTOSHITAL Fitness Club</div>-->
-  </div> 
-  </div>
+        <!-- <div  [routerLink]="['/app-dashboard']" style="color: white;">SANTOSHITAL Fitness Club</div>-->
+      </div>
+    </div>
 
-  <div class="col-9" style="text-align: right;">
-    <div class="menu_icon" [class.menu_icon_Class]="menu_icon_variable" (click)="openMenu()">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  <div class="menu" [class.menuClass]="menuVariable">
-    <uL >
-      <li  [routerLink]="['/app-about']" >About
-      </li>
-      <li   [routerLink]="['/app-contact']">Contact Us
-      </li>
-      <li  [routerLink]="['/app-blogs']">Blogs
-      </li>
-    </uL>
+    <div class="col-9" style="text-align: right;">
+      <div class="menu_icon" [class.menu_icon_Class]="menu_icon_variable" (click)="openMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu" [class.menuClass]="menuVariable">
+        <uL>
+          <li [routerLink]="['/about']">About
+          </li>
+          <li [routerLink]="['/contact']">Contact Us
+          </li>
+          <li [routerLink]="['/blogs']">Blogs
+          </li>
+        </uL>
+      </div>
     </div>
   </div>
-</div>
 </header>
-
-<style>
- header {
-    padding: 10px 0;
-    background-color: #494e85 !important;
-  }
-  .menu{
-   /* margin-top: 0px; */
-   /* transition: 0.4s ease-in-out; */
-  }
-  .menu ul{
-    padding: 0;
-    margin: 0;
-  }
-  .menu ul li{
-    list-style-type: none;
-    color: white;
-    display: inline-block;
-    font-size: 20px;
-    margin-left: 24px;
-  }
-  .menu ul li:hover{
-    color: aqua;
-    cursor: pointer;
-    transition: 0.4s ease-in-out;
-  }
-  .menu_icon_Class span:nth-child(2){
-    display: none;
-  }
-  .menu_icon_Class span:nth-child(1){
-    transform: rotate(40deg);
-  }
-  .menu_icon_Class span:nth-child(3){
-    transform: rotate(-40deg);
-    margin-top: -3px;
-  }
-
-
-@media  (max-width: 999px){
-    .menu{
-     position: fixed;
-     right: -220px;  
-     top: 48px;
-     width: 225px;
-     height: 100%;
-     background-color: #494e85 !important;
-     /* right: 0; */
-   }
-   .menu ul li{
-     display: block;
-     text-align: left;
-     margin: 0;
-     cursor: pointer;
-     padding: 0px 0 10px 20px;
-     border-bottom: 1px solid black;
-   } 
-   .menu_icon{
-   display: inline-block;
-   position: relative;
-   /* right: -485px; */
-   /* top: -2px; */
-
-   }
-   .menu_icon span{
-     width: 32px;
-     display: block;
-     background: white;
-     height: 3px;
-     transition: 0.4s ease-in-out;
-   }
-   .menu_icon span:nth-child(2){
-     margin: 4px 0;
-
-   }
-   .menuClass{
-   right: 0;
-   transition: 0.4s ease-in-out;
- }
- }
-  
-</style>
-
-
 
 <!-- <div >
   <nav class="navbar navbar-expand-md navbar-dark bg-ledapp">
