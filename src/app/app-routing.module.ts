@@ -7,6 +7,7 @@ import { AuthService } from './auth/auth.service';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { BlogsComponent } from './blogs/blogs.component';
+import { WeightlossComponent } from './weightloss/weightloss.component';
 
 const routes: Routes = [];
 
@@ -21,6 +22,7 @@ const childRoutes: Routes = [
        { path: 'about', component: AboutComponent },
        { path: 'contact', component: ContactComponent },
        { path: 'blogs', component: BlogsComponent },
+       { path: 'weightloss', component: WeightlossComponent },
     ],
   }
 ];

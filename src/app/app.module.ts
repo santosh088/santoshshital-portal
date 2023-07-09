@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { AgmCoreModule } from '@agm/core';
+import { WeightlossComponent } from './weightloss/weightloss.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { AgmCoreModule } from '@agm/core';
     LayoutComponent,
     AboutComponent,
     ContactComponent,
-    BlogsComponent
+    BlogsComponent,
+    WeightlossComponent
   ],
   imports: [
     BrowserModule,
