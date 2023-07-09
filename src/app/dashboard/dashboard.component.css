@@ -242,11 +242,15 @@
     width: 100%;
     margin: 0%;
     padding: 0%;
+    background-size: cover;
+background-position: center center;
 }
 @media (max-width: 999px) {
     .image-dashbaord {
         background-image: url("assets/images/yoga.jpg");
         height: 100%;
+        background-size: cover;
+background-position: center center;
         width: 100%;
         margin: 0%;
         padding: 0%;
