@@ -232,9 +232,9 @@
     display: block;
 }
 
-.backgroundImage {
+/* .backgroundImage {
     background-image: 'love.jpg';
-}
+} */
 
 .image-dashbaord {
     background-image: url("assets/images/desk_yoga.jpg");
