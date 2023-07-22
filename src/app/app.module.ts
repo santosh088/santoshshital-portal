@@ -13,6 +13,7 @@ import { BlogsComponent } from './blogs/blogs.component';
 import { AgmCoreModule } from '@agm/core';
 import { WeightlossComponent } from './weightloss/weightloss.component';
 import { DietDetailsComponent } from './diet-details/diet-details.component';
+import { HashLocationStrategy, LocationStrategy  } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -25,8 +26,10 @@ import { DietDetailsComponent } from './diet-details/diet-details.component';
     ContactComponent,
     BlogsComponent,
     WeightlossComponent,
-    DietDetailsComponent
+    DietDetailsComponent,
+    
   ],
+  
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -34,7 +37,7 @@ import { DietDetailsComponent } from './diet-details/diet-details.component';
       apiKey: ''
     })
   ],
-  providers: [],
+  providers: [{provide : LocationStrategy , useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

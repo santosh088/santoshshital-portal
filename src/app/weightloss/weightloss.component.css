@@ -3,8 +3,15 @@ background-color: aquamarine;
 }
 
 @media (max-width: 999px) {
-    .text {
+
+    .list-group-item{
+        padding-left: 0%;
+        border: 0px solid rgba(0,0,0,.125);  
+      }
+    
+    .list-group-item.text {
         /* width: max-content; */
         display: contents;
+
     }
 }
