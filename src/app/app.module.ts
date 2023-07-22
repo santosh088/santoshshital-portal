@@ -12,6 +12,7 @@ import { ContactComponent } from './contact/contact.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { AgmCoreModule } from '@agm/core';
 import { WeightlossComponent } from './weightloss/weightloss.component';
+import { DietDetailsComponent } from './diet-details/diet-details.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { WeightlossComponent } from './weightloss/weightloss.component';
     AboutComponent,
     ContactComponent,
     BlogsComponent,
-    WeightlossComponent
+    WeightlossComponent,
+    DietDetailsComponent
   ],
   imports: [
     BrowserModule,

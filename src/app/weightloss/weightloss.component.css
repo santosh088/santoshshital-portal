@@ -1,0 +1,10 @@
+.list-group :hover{
+background-color: aquamarine;
+}
+
+@media (max-width: 999px) {
+    .text {
+        /* width: max-content; */
+        display: contents;
+    }
+}
