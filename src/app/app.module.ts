@@ -14,6 +14,7 @@ import { AgmCoreModule } from '@agm/core';
 import { WeightlossComponent } from './weightloss/weightloss.component';
 import { DietDetailsComponent } from './diet-details/diet-details.component';
 import { HashLocationStrategy, LocationStrategy  } from '@angular/common';
+import { NgImageSliderModule } from 'ng-image-slider';
 
 @NgModule({
   declarations: [
@@ -28,11 +29,13 @@ import { HashLocationStrategy, LocationStrategy  } from '@angular/common';
     WeightlossComponent,
     DietDetailsComponent,
     
+    
   ],
   
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NgImageSliderModule,
     AgmCoreModule.forRoot({
       apiKey: ''
     })

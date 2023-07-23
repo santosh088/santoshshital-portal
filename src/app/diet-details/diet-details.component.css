@@ -16,3 +16,12 @@
     position: absolute;
 
 } */
+
+@media (max-width: 999px) {
+    .row{
+        margin-right:0px;
+    }
+    .col-12 {
+        margin-left: 30%;
+    }
+}

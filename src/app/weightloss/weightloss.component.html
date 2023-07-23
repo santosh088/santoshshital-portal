@@ -1,43 +1,16 @@
 <div class ="col-12" style="text-align: center;"><strong >WEIGHT LOSS</strong>
 </div>
-<div class="row " style="height: auto; overflow: auto;margin-top: 5%;">
-    <div class="col-3">
+<div class="row " style="height: 780px; overflow: auto;margin:2%;background-color:  lightgrey;">
+    <div class="col-3" style="margin: 2%;">
         <ul class="list-group text">
-            <li *ngFor="let diet of diets">
+            <li *ngFor="let diet of diets" style="list-style-type:none">
             <a class="list-group-item" (click)="selectDiet(diet.name)">{{diet.name}}</a></li>
           </ul>
     </div>
-    <div class="col-7" >
+    <div class="col-7" style="margin-top: 2%;">
 
     <app-diet-details></app-diet-details>
-
-        <!-- <div class="row" style="
-                margin-bottom: 5%;
-                padding-left: 5%;
-                padding-right: 5%;
-                font-style: normal;">
-
-            <ul>
-                <strong style="
-        margin-bottom: 2%; ">MORNING DRINKS</strong>
-                <li>
-                    Warm water
-                </li>
-                <li>
-                    Chia seed water
-                </li>
-            </ul>
-        </div> -->
-
-        <!-- <div class="row" style="
-        margin-bottom: 5%;
-        padding-left: 5%;
-        padding-right: 5%;
-        font-style: normal;">
-            <ul>
-                <strong style="margin-bottom: 2%; ">Updating soon....!</strong>
-            </ul>
-        </div> -->
     </div>
-    <div class="col-2" style="text-align: center;">
+    <div class="col-2" style="text-align: center;"></div>
+    <div class="row image-dashbaord" ></div>
 </div>

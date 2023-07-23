@@ -1,17 +1,41 @@
 .list-group :hover{
-background-color: aquamarine;
+background-color:  #494e85 !important;
+color: white;
+}
+
+
+.image-dashbaord {
+    background-image: url("assets/images/yoga-day.jpg");
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-size: cover;
+background-position: center center;
 }
 
 @media (max-width: 999px) {
 
     .list-group-item{
-        padding-left: 0%;
+        padding-left: 5%;
         border: 0px solid rgba(0,0,0,.125);  
+        width: max-content;
+        background-color:  lightgray;
       }
     
     .list-group-item.text {
         /* width: max-content; */
         display: contents;
+        padding-left: 5%;
+    }
+    .image-dashbaord {
+        background-image: url("assets/images/weightloss.jpg");
+        height: 30%;
+        /* background-size: cover;
+        background-position: center center; */
+        width: 100%;
+        /* margin-top: -50%; */
+        margin-bottom: 0%;
 
     }
 }
